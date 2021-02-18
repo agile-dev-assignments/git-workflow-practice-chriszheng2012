@@ -2,3 +2,5 @@
 [The loss surfaces of multilayer networks](https://arxiv.org/abs/1412.0233).
 # Thoughts
 This paper from a few years ago proves several interesting facts about deep neural networks and other comparable models: 1), for large neural networks with many layers, the test set performance of local and global extremum is similar; 2), the probability of finding the global extremum becomes smaller the larger the neural network becomes; 3), considering these factors, finding the global extremum on the training set is liable to cause overfitting and provide little performance benefit. In particular, the paper highlights a decrease in the Pearson correlation coefficient between the training set loss and test set loss as the neural network increases in layer, which implies that a large network is less prone to overfitting. This paper is interesting because it provides some theoratical foundation to the effectiveness of deep neural networks, which is a popular research topic in the field of machine learning.
+
+Hi! - Anthony Delgado
